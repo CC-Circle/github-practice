@@ -25,6 +25,14 @@ body:
       placeholder: ex. main
     validations:
       required: true
+  - type: input
+    id: working-Scene
+    attributes:
+      label: シーン名
+      description: 問題が発生したSceneは何ですか？
+      placeholder: ex. SampleScene
+    validations:
+      required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -35,7 +43,20 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: unity-version
+    attributes:
+      label: どのUnity Editor Versionで問題が発生していますか？
+      multiple: true
+      options:
+        - 2022.3.19f1 (Apple Silicon)
+        - 2022.3.7f1 (Apple Silicon)
+        - 2021.3.35f1 (Apple Silicon)
+        - 2023.2.9f1 (Apple Silicon)
+        - other version
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-system
     attributes:
       label: どのOSで問題が発生していますか？
       multiple: true
@@ -44,6 +65,8 @@ body:
         - macOS Ventura
         - macOS Sonoma
         - Windows
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
@@ -54,7 +77,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: この問題を提出することにより、あなたは私たちの[行動規範](https://github.com/CC-Circle/github-practice/blob/main/CONTRIBUTING.md)に従うことに同意します。
+      description: この問題を提出することにより、あなたは私たちの[行動規範](https://github.com/CC-Circle/Janaihou/blob/main/CONTRIBUTING.md)に従うことに同意します。
       options:
         - label: 私はこのプロジェクトの行動規範に従うことに同意します。
           required: true
