@@ -8,7 +8,7 @@ public class issue_practice : MonoBehaviour
     void Start()
     {
         int[] a = { 1, 2, 3, 4, 5 };
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < a.Length; i++)
         {
             Debug.Log(a[i]);
         }
