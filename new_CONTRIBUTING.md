@@ -1,6 +1,6 @@
 # CC-Circle Contribution Guide 🚀
 
-これは、Contents Creation CircleのContribution Guideです。チーム開発をする上で、次のようなプロセスを誰もが簡単に行えるようにすることが目的です。
+これは、Contents Creation CircleのContribution Guideです。チーム開発をする上で、次のようなプロセスを誰もが気軽に行えるようにすることが目的です。
 
 - チーム開発
 - ディスカッション
