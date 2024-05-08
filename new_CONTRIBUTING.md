@@ -1,4 +1,4 @@
-# CC-Circle Contribution Guide 🚀
+# Contributing to CCC 🚀
 
 これは、Contents Creation CircleのContribution Guideです。チーム開発をする上で、次のようなプロセスを誰もが気軽に行えるようにすることが目的です。
 
