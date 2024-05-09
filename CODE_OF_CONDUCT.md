@@ -1,5 +1,5 @@
 
-# コントリビューター行動規範
+# CC-Circle Contributor Covenant Code of Conduct
 
 ## 私たちの約束
 
